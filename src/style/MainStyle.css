@@ -1,0 +1,218 @@
+
+.html{
+  background-color: #f9f9f9;
+}
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .space-evenly{
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  
+  .client-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .project-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .project-budget {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .project-deadline {
+    font-size: 14px;
+  }
+  
+  .image-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  .project-card {
+    /* display: flex; */
+    flex-wrap: wrap;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  
+  .project-card-icon {
+    font-size: 20px;
+    margin-right: 0px;
+  }
+  
+  .project-card .card-title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .project-card .card-subtitle {
+    font-size: 18px;
+  }
+  
+  .project-card .card-text {
+    font-size: 16px;
+  }
+  
+  .project-card .btn-primary {
+    background-color: #14a0c9;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  .project-card .btn-primary:hover {
+    background-color: #0e86ac;
+    border: none;
+  }
+  @media (min-width: 992px) {
+  .card {
+    width: 70%;
+  }
+}
+
+@media (max-width: 991px) {
+  .card {
+    width: 100%;
+    padding: 20px 0px 20px 20px;
+  }
+  .margin_set{
+    margin-right: 15px;
+  }
+}
+
+.center_content{
+  margin: 0 2vh;
+}
+
+.project-card-description {
+  height: 3em; /* adjust the height to the height of three rows */
+  overflow: hidden;
+  text-overflow: ellipsis; /* add ellipsis to indicate truncated text */
+  display: -webkit-box; /* use the -webkit- prefix for Safari */
+  -webkit-line-clamp: 3; /* number of rows to show */
+  -webkit-box-orient: vertical;
+}
+
+
+.border-bottom {
+  border-bottom: 1px solid #adadad;
+  width: 100%;
+  margin-bottom: 1vh;
+}
+.d-flex{
+  display: flex;
+}
+.text-decoration{
+  text-decoration: none;
+  color: black;
+}
+.cards{
+  margin-top: 5vh;
+  width: 80% !important;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card_detail_des{
+  margin-left: 2vw;
+}
+.justify-content-space-around{
+  justify-content: space-around;
+}
+.rm_pad_mar{
+  padding: 0;
+  margin: 0;
+}
+.bold{
+  font-weight: bold;
+}
+.mar-y{
+  margin: 2vh 0;
+}
+.sl_mar{
+  margin-right: 1vh;
+}
+.form_bid{
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 5vh;
+  width: 80% !important;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.mar{
+  margin: 2vh;
+}
+.client_main_card{
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 5vh;
+  width: 35vh;
+  text-align: center;
+  padding: 5vh;
+  max-width: 35vh;
+  min-width: 35vh;
+}
+.arrow_big{
+  font-size: xx-large;
+  margin-bottom: -10px;
+  margin-left: 10px;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.post_project{
+  width: 70vw;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 5vh;
+  text-align: center;
+  padding: 5vh;
+}
+.mb-5{
+  margin-bottom: 5vh;
+  margin-top: 1vh;
+}
+.postproject_mar{
+  margin: 2vh 0;
+}
